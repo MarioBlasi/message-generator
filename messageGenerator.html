@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="message-container p-5">
+            <h1 class="text-center mb-4">Random Message Generator</h1>
+            <p class="quote fs-5">Quote: <span id="quote"></span></p>
+            <p class="advice fs-5">Advice: <span id="advice"></span></p>
+            <p class="reflection fs-5">Reflection: <span id="reflection"></span></p>
+        </div>
+        <button class="btn btn-primary d-block mx-auto mt-4" onclick="generateAndDisplayMessage()">Generate Message</button>
+    </div>
+
+    <script src="script.js"></script>
+</html>
