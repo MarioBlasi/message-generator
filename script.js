@@ -32,12 +32,6 @@ function getRandomIndex(array) {
     return Math.floor(Math.random() * array.length);
 }
 
-// Function to generate a random message
-
-function getRandomIndex(array) {
-    return Math.floor(Math.random() * array.length);
-}
-
 function generateAndDisplayMessage() {
     const randomQuoteIndex = getRandomIndex(quotes);
     const randomAdviceIndex = getRandomIndex(advices);
@@ -50,5 +44,5 @@ function generateAndDisplayMessage() {
 
 // Generate and display message when page loads
 generateAndDisplayMessage();
-// Execute the program and print the message
+
 //console.log(generateRandomMessage());
